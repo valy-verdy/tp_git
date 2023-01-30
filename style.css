@@ -7,9 +7,29 @@ h1{
 }
 
 h2{
-    text-align: right;
+    text-align: center;
     background-color:lightskyblue;
     color: white;
     line-height: 20px;
     border-radius: 4px;
+}
+
+.defile{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;   
+
+}
+
+.defile:hover{
+    background-color: blue;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+   
 }
