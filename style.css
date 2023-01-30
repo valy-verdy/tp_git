@@ -2,5 +2,12 @@ h1{
     text-align:center;
     background-color: coral;
     color:white;
-    line-height:50 px
+    line-height:50px;
+}
+
+h2{
+    text-align: right;
+    background-color:lightskyblue;
+    color: white;
+    line-height: 20px;
 }
